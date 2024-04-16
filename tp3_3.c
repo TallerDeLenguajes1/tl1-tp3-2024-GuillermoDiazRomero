@@ -15,7 +15,7 @@ void main()
         printf("\nIngrese el %der nombre: ", i + 1);
         gets(dato);
 
-        longitud = strlen(dato);
+        longitud = strlen(dato) + 1;
         lista[i] = malloc(longitud * sizeof(char));
         strcpy(lista[i], dato);
     }
