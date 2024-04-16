@@ -1,0 +1,5 @@
+#Evito que suban ciertos archivos
+
+*.exe
+*.obj
+*.tds
